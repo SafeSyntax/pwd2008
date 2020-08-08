@@ -1,0 +1,276 @@
+/*
+Color: 
+#009688; (past)
+#444444; (dark gray)
+*/
+
+body {
+	font-size: 14px;
+	color: #444444;
+	font-family: 'Poppins', sans-serif;
+}
+/*Common CSS*/
+h2 {
+	color: #444444;
+	font-size: 30px;
+	font-weight: 700;
+}
+.light-blue {
+	color: #009688;
+}
+.per-btn {
+	padding: 15px 30px;
+	display: inline-block;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 1px solid #fff;
+	transition: .3s;
+}
+.per-btn:hover,
+.per-btn:focus {
+	color: #009688;
+	border: 1px solid #009688;
+	text-decoration: none;
+}
+.sec-title-ara {
+	text-align: center;
+}
+.sec-title {
+	display: inline-block;
+	position: relative;
+}
+.sec-style {
+	width: 80px;
+	height: 2px;
+	background-color: #e8e8e8;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+
+}
+.sec-style:after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background-color: #009688;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -.25px;
+}
+.sec-style:before {
+	content: "";
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	background-color: #009688;
+	border-radius: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	top: 50%;
+}
+/*
+++++++++++++++++++++++
+Header Area
+++++++++++++++++++++++
+*/
+.header-top {
+	background-color: #192330;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.top-left-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-left ul,
+.top-right ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+.top-left ul li,
+.top-right ul li {
+	
+}
+.top-left ul li {
+	margin-right: 30px;
+}
+.top-right ul li {
+	margin-left: 15px;
+}
+.top-left ul li a,
+.top-right ul li a {
+	text-decoration: none;
+	color: #ababab;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+}
+.top-right ul li a:hover {
+	color: #31aae2;
+}
+.top-left ul li a ion-icon {
+	padding-right: 7px;
+	display: inline-block;
+}
+
+/*Menu*/
+.menu {
+	padding-top: 23px;
+	padding-bottom: 23px;
+}
+.menu a.navbar-brand img {
+	max-width: 205px;
+}
+.menu ul {
+	margin-left: auto;
+}
+.menu .navbar-light .navbar-nav a.nav-link {
+	color: #444444;
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.menu .navbar-light .navbar-nav li:last-child a.nav-link {
+	padding-right: 0;
+}
+.menu .navbar-light .navbar-nav a.nav-link
+.menu .navbar-light .navbar-nav .active>.nav-link, 
+.menu .navbar-light .navbar-nav .nav-link.active, 
+.menu .navbar-light .navbar-nav .nav-link.show, 
+.menu .navbar-light .navbar-nav .show>.nav-link {
+	color: #009688;
+}
+.menu .navbar-light .navbar-nav .nav-link:focus, 
+.menu .navbar-light .navbar-nav .nav-link:hover {
+    color: #009688;
+}
+
+
+/*
+++++++++++++++++++++++
+Banner Area
+++++++++++++++++++++++
+*/
+.banner {
+	color: #fff;
+}
+.banner-item {
+	position: relative;
+	background-size: cover;
+	padding-top: 270px;
+	padding-bottom: 270px;
+	background-position: center;
+	z-index: 0;
+	background-color: #000;
+}
+.banner-item:before {
+	position: absolute;
+	content: "";
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background-color: rgba(0,0,0,.5);
+	z-index: -1;
+}
+.banner-item h1 {
+	font-size: 76px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.banner-item h1 > span {
+	display: block;
+	font-size: 24px;
+	text-transform: initial;
+	font-weight: 400;
+}
+.banner p {
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+
+
+
+/*
+++++++++++++++++++++++
+Design Area
+++++++++++++++++++++++
+*/
+.design {
+	padding-top: 150px;
+	text-align: center;
+	position: relative;
+}
+.design-in {
+    position: absolute;
+    font-size: 160px;
+    font-weight: 700;
+    color: #009688;
+    transform: rotate(-90deg) translateY(-50%);
+    top: 50%;
+    opacity: .12;
+}
+.design h2 {
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 50px;
+	margin-top: 0;
+}
+.design img {
+	max-width: 100%;
+	margin-top: 130px;
+}
+/*
+++++++++++++++++++++++
+Services Area
+++++++++++++++++++++++
+*/
+.services {
+	text-align: center;
+	background-color: #fafafa;
+	border-top: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	position: relative;
+	top: -50px;
+	margin-bottom: -50px;
+}
+.service-item {
+
+}
+.service-item .icon  {
+
+}
+.service-item .icon ion-icon {
+	font-size: 72px;
+	transition: .5s;
+}
+.service-item:hover ion-icon {
+	transform: rotateY(360deg);
+	color: #009688;
+}
+.service-item .title {
+	font-size: 20px;
+	font-weight: 600;
+	padding-top: 15px;
+	padding-bottom: 10px;
+} 
+.service-item .content {
+
+} 
+/*
+++++++++++++++++++++++
+portfolio Area
+++++++++++++++++++++++
+*/
+.portfolio .sec-title h2 {
+	padding-bottom: 20px;
+	margin-bottom: 0;
+	line-height: 1;
+}

@@ -1,0 +1,133 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+h2 {
+	text-align: center;
+	color: red;
+	font-size: 60px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.onno-list li:before {
+	content: "Before ";
+	color: red;
+}
+ul.onno-list li:hover:before {
+	color: green;
+}
+ul.onno-list li:after {
+	content: " After";
+}
+ul.onno-list li:hover {
+	color: blue;
+}
+
+
+/*List*/
+ul.list {
+	display: flex;
+}
+ul.list li {
+	padding: 15px;
+	background: red;
+	margin-right: 5px;
+	color: #fff;
+}
+ul.list li:first-child {
+	background: green;
+}
+ul.list li:last-child {
+	background: blue;
+}
+ul.list li:nth-child(3) {
+	background: pink;
+}
+ul.list li:nth-child(5) {
+	background: gray;
+}
+
+
+ul.alada li {
+	background: aqua;
+	width: 200px;
+	margin-bottom: 5px;
+}
+ul.alada li:nth-child(odd) {
+	background: yellow;
+}
+ul.alada li:nth-child(even) {
+	background: skyblue;
+}
+ul.alada li:hover:nth-child(even),
+ul.alada li:hover:nth-child(odd) {
+	background: red;
+}
+
+
+.pos {
+	width: 200px;
+	height: 100px;
+	background: red;
+
+	position: relative;
+	left: 200px;
+	top: 60px;
+}
+
+.abs {
+	width: 200px;
+	height: 100px;
+	background: green;
+
+	position: absolute;
+	left: 500px;
+	top: 60px;
+}
+
+
+.others {
+	width: 200px;
+	height: 100px;
+	background: pink;
+
+	position: absolute;
+	top: 60px;
+	right: 0;
+}
+
+
+
+.box img {
+	max-width: 100%;
+	border-radius: 30px 0 30px 0;
+}
+.box {
+	max-width: 500px;
+	position: relative;
+	border-radius: 30px 0 30px 0;
+}
+.into {
+	position: absolute;
+	background: rgba(255,0,0,.8);
+
+	left: 20px;
+	right: 20px;
+	bottom: 20px;
+	top: 20px;
+	border-radius: 30px 0 30px 0;
+
+}
+
+.lathi {
+	position: absolute;
+	width: 30px;
+	height: 700px;
+	background: blue;
+	left: 100%;
+	top: 0;
+}

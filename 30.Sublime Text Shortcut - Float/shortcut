@@ -1,0 +1,125 @@
+!
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+</body>
+</html>
+
+
+
+div>h3
+<div>
+	<h3></h3>
+</div>
+
+
+.content>img+h2+p
+<div class="content">
+	<img src="" alt="">
+	<h2></h2>
+	<p></p>
+</div>
+
+.content>img[alt=photo]+h2+p
+<div class="content">
+	<img src="" alt="photo">
+	<h2></h2>
+	<p></p>
+</div>
+
+
+.content>h5+.in>img+h2+p
+<div class="content">
+	<h5></h5>
+	<div class="in">
+		<img src="" alt="">
+		<h2></h2>
+		<p></p>
+	</div>
+</div>
+
+
+
+ul>li>a
+<ul>
+	<li><a href=""></a></li>
+</ul>
+
+
+ul>li*10>a
+<ul>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+</ul>
+
+ul>li*5>a{item}
+<ul>
+	<li><a href="">item</a></li>
+	<li><a href="">item</a></li>
+	<li><a href="">item</a></li>
+	<li><a href="">item</a></li>
+	<li><a href="">item</a></li>
+</ul>
+
+
+ul>li*5>a[#]{item}
+<ul>
+	<li><a href="#">item</a></li>
+	<li><a href="#">item</a></li>
+	<li><a href="#">item</a></li>
+	<li><a href="#">item</a></li>
+	<li><a href="#">item</a></li>
+</ul>
+
+ul>li*5>a[#]{Menu $}
+<ul>
+	<li><a href="#">Menu 1</a></li>
+	<li><a href="#">Menu 2</a></li>
+	<li><a href="#">Menu 3</a></li>
+	<li><a href="#">Menu 4</a></li>
+	<li><a href="#">Menu 5</a></li>
+</ul>
+
+
+ul>li*5>a[#]{Menu $@15}
+<ul>
+	<li><a href="#">Menu 15</a></li>
+	<li><a href="#">Menu 16</a></li>
+	<li><a href="#">Menu 17</a></li>
+	<li><a href="#">Menu 18</a></li>
+	<li><a href="#">Menu 19</a></li>
+</ul>
+
+ul>li*5>a[#]{Menu $@-15}
+<ul>
+	<li><a href="#">Menu 19</a></li>
+	<li><a href="#">Menu 18</a></li>
+	<li><a href="#">Menu 17</a></li>
+	<li><a href="#">Menu 16</a></li>
+	<li><a href="#">Menu 15</a></li>
+</ul>
+
+
+
+Keyboard ShortCut
+ctrl+K+B (Toggle side bar)
+ctrl+w (Close tab)
+ctrl+n (New Tab)
+ctrl+shit+n (New Window)
+ctrl+shift+arrow (Up/Down Line)
+ctrl+h (for replace)

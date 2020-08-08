@@ -1,0 +1,16 @@
+h2 {
+	font-size: 60px;
+	color: red;
+	text-align: center;
+}
+
+
+
+
+@media (max-width: 480px) {
+	h2 {
+		background: green;
+		padding: 50px;
+	}
+
+}

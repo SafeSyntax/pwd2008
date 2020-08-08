@@ -1,0 +1,69 @@
+.same {
+	width: 100px;
+	height: 100px;
+	font-size: 30px;
+	color: #fff;
+}
+.a {
+	background: red;
+}
+.b {
+	background: green;
+}
+.c {
+	background: gray;
+}
+.d {
+	background: blue;
+}
+.e {
+	background: pink;
+}
+
+
+.box {
+	background: yellow;
+	width: 900px;
+	height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	/*justify-content: center;*/
+	/*justify-content: flex-end;*/
+	/*justify-content: space-between;*/
+	/*justify-content: space-around;*/
+	margin-left: auto;
+	margin-right: auto;
+	/*align-items: center;*/
+}
+.same {
+	/*flex-grow: 1;*/
+	/*flex-shrink: 1;*/
+}
+.c {
+	margin-left: auto;
+	margin-right: auto;
+	align-self: flex-end;
+}
+
+
+/*.jkono {
+	width: 1000px;
+	background: maroon;
+	height: 200px;
+}
+.any {
+	width: 300px;
+	height: 100px;
+	background: red;
+	margin-left: auto;
+	margin-right: auto;
+}*/
+
+
+
+/*Layout Design*/
+.container {
+	background: red;
+	height: 200px;
+	width: 1000px;
+}

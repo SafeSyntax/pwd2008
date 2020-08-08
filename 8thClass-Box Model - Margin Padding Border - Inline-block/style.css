@@ -1,0 +1,60 @@
+
+.anything {
+	background: green;
+	width: 200px;
+	height: 200px;
+	/*margin: 100px;*/
+	/*margin-top: 100px;
+	margin-left: 150px;
+	margin-right: 50px;
+	margin-bottom: 40px;*/
+	margin: 100px 50px 40px 150px;
+	border: 5px solid red;
+	/*padding: 50px;*/
+	padding: 40px 40px 40px 40px;
+}
+
+
+.box {
+	width: 200px;
+	height: 200px;
+	background: red;
+	padding: 60px 60px 60px 60px;
+	border: 5px solid black;
+
+
+	margin: 100px 50px 40px 150px;
+
+
+	box-sizing: border-box;
+
+}
+
+
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	list-style: none;
+	background: red;
+	margin-bottom: 2px;
+
+	display: inline-block;
+	text-transform: uppercase;
+	color: white;
+	padding: 20px;
+}
+
+
+
+
+
+.shamim {
+	background: green;
+}
+.pritom .shamim {
+	background: red;
+	margin-top: 100px;
+}

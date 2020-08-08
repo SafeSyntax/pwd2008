@@ -1,0 +1,15 @@
+@media (max-width: 991px) {
+	.container {
+		width: 100%;
+	}
+	.col-33 {
+		flex: 0 0 50%;
+	}
+}
+
+@media (max-width: 768px) {
+	.col-50,
+	.col-33 {
+		flex: 0 0 100%;
+	}
+}

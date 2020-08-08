@@ -1,0 +1,194 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.sec-area {
+	text-align: center;
+}
+.title {
+	display: inline-block;
+	font-size: 40px;
+	position: relative;
+	text-transform: uppercase;
+}
+.right {
+	position: absolute;
+	width: 100px;
+	height: 4px;
+	background: red;
+	top: 50%;
+	margin-top: -2px;
+	left: calc(100% + 10px);
+}
+.left {
+	position: absolute;
+	width: 100px;
+	height: 4px;
+	background: red;
+	top: 50%;
+	margin-top: -2px;
+	right: calc(100% + 10px);
+}
+
+
+.title2 {
+	position: relative;
+	display: inline-block;
+	font-size: 40px;
+	position: relative;
+	text-transform: uppercase;
+}
+
+
+/*Another System*/
+.title2:before {
+	content: "";
+	position: absolute;
+	width: 100px;
+	height: 4px;
+	background: red;
+	right: calc(100% + 10px);
+	top: 50%;
+	margin-top: -2px;
+}
+.title2:after {
+	content: "";
+	position: absolute;
+	width: 100px;
+	height: 4px;
+	background: red;
+	left: calc(100% + 10px);
+	top: 50%;
+	margin-top: -2px;
+}
+
+
+
+ul.list {
+	list-style: none;
+	margin: 0;
+	margin-left: 200px;
+	padding: 0;
+}
+ul.list li {
+	position: relative;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+ul.list li:before {
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: -30px;
+	background: red;
+	top: 50%;
+	transform: translateY(-50%) rotate(45deg);
+	transition: 1s;
+
+
+}
+ul.list li:hover:before {
+		transform: translateY(-50%) rotate(0);
+
+}
+
+
+
+ul.list2 {
+	list-style: none;
+	margin: 0;
+	margin-left: 200px;
+	padding: 0;
+}
+ul.list2 li {
+	position: relative;
+	font-size: 50px;
+}
+ul.list2 li:before {
+	content: "\f105";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 700;
+	position: absolute;
+	font-size: 40px;
+	top: 10px;
+	left: -25px;
+	color: red;
+	transition: .2s;
+}
+ul.list2 li:hover:before {
+	content: "\f00c";
+	left: -40px;
+}
+
+
+
+
+/*Special Title*/
+.spe-sec {
+	text-align: center;
+}
+.text {
+	display: inline-block;
+	position: relative;
+	font-size: 30px;
+}
+.text span {
+	color: #0089e9
+}
+.text:after {
+    content: "";
+    position: absolute;
+    bottom: -18px;
+    right: 0;
+    left: calc(50% + 31px);
+    height: 4px;
+    background: #101010;
+}
+.text:before {
+    content: "";
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+    right: calc(50% + 31px);
+    height: 4px;
+    background: #101010;
+}
+.bullet {
+	width: 10px;
+	height: 10px;
+	background: green;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%) rotate(45deg);
+	bottom: -20px;
+}
+.bullet2 {
+	width: 10px;
+	height: 10px;
+	background: blue;
+	position: absolute;
+	left: 50%;
+	transform: translateX(calc(-50% + 18px)) rotate(45deg);
+	bottom: -20px;
+}
+.bullet3 {
+	width: 10px;
+	height: 10px;
+	background: pink;
+	position: absolute;
+	left: 50%;
+	transform:  translateX(calc(-50% - 18px)) rotate(45deg);
+	bottom: -20px;
+}
+
+
+
+.hello {
+	width: 20px;
+	background: blue;
+	color: #fff;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+}

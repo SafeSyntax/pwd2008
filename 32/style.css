@@ -1,0 +1,66 @@
+/*
+Color: 
+#009688; (past)
+#444444; (dark gray)
+*/
+
+body {
+	font-size: 14px;
+	color: #444444;
+}
+/*Common CSS*/
+h2 {
+	color: #444444;
+	font-size: 30px;
+}
+.ligh-blue {
+	color: #009688;
+}
+
+
+/*
+++++++++++++++++++++++
+Header Area
+++++++++++++++++++++++
+*/
+.header-top {
+	background-color: #192330;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.top-left-right {
+	display: flex;
+	justify-content: space-between;
+}
+.top-left ul,
+.top-right ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+.top-left ul li,
+.top-right ul li {
+	
+}
+.top-left ul li {
+	margin-right: 30px;
+}
+.top-right ul li {
+	margin-left: 15px;
+}
+.top-left ul li a,
+.top-right ul li a {
+	text-decoration: none;
+	color: #ababab;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+}
+.top-right ul li a:hover {
+	color: #31aae2;
+}
+.top-left ul li a ion-icon {
+	padding-right: 7px;
+	display: inline-block;
+}

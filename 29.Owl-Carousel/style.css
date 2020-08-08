@@ -1,0 +1,14 @@
+.slide-item {
+	text-align: center;
+	padding: 15px 15px 30px 15px;
+	background: #ccc;
+	border-radius: 10px;
+}
+.slide-item h2 {
+	margin-top: 15px;
+	color: red;
+	font-size: 16px;
+}
+.our-slider.owl-theme .owl-dots .owl-dot.active span {
+	background: red;
+} 

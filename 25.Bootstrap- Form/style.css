@@ -1,0 +1,32 @@
+/*.collapsed.btn {
+    position: relative;
+}
+.collapsed.btn:before {
+    content: "\f067";
+    font-family: "font awesome 5 free";
+    font-weight: 700;
+}
+
+.btn {
+    position: relative;
+}
+.btn:before {
+    content: "\f146";
+    font-family: "font awesome 5 free";
+    font-weight: 700;
+
+}*/
+
+
+.hello {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: red;
+}
+.fa-valo {
+    background: blue;
+}
+.fa-mondo {
+    background: green;
+}

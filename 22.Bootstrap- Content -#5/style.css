@@ -1,0 +1,19 @@
+.slide-item img {
+	display: block;
+	width: 100%;
+}
+ol.abc li {
+    width: 14px;
+    height: 14px;
+    background: red;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid green;
+}
+.abc.carousel-indicators {
+	position: static;
+}
+ol.abc li.active {
+	background: yellow;
+	border: 2px solid blue;
+}

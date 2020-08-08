@@ -1,0 +1,72 @@
+h2 {
+	font-size: 60px;
+	color: red;
+	text-align: center;
+}
+
+
+/*max width*/
+@media (max-width: 700px) {
+	h2 {
+		color: pink;
+	}
+}
+
+@media (max-width: 600px) {
+	h2 {
+		color: gray;
+	}
+}
+
+/*min width*/
+@media (min-width: 991px) {
+	h2 {
+		color: yellow;
+	}
+}
+@media (min-width: 1200px) {
+	h2 {
+		color: black;
+	}
+}
+
+
+/*min to max*/
+@media (min-width: 1100px) and (max-width: 1300px) {
+	h2 {
+		font-size: 100px;
+		color: green;
+		text-transform: uppercase;
+	}
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+
+
+	
+}
+
+
+@media (max-width: 991px) {
+
+
+}
+
+@media (max-width: 768px) {
+
+
+}
+
+@media (max-width: 480px) {
+
+
+}
+
+@media (max-width: 320px) {
+
+
+}
